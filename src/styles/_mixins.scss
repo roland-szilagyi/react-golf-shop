@@ -1,0 +1,47 @@
+// FLEXBOX
+@mixin flex($display, $flex-direction, $justify-content, $align-items, $flex-wrap) {
+  display: $display;
+  flex-direction: $flex-direction;
+  justify-content: $justify-content;
+  align-items: $align-items;
+  flex-wrap: $flex-wrap;
+}
+
+// WIDTH/HEIGHT
+@mixin size($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+// TEXT
+@mixin text($font-family, $font-size-size, $font-weight, $color, $text-shadow) {
+  font-family: $font-family;
+  font-size: $font-size-size;
+  font-weight: $font-weight;
+  color: $color;
+  text-shadow: $text-shadow;
+}
+
+// MARGIN/PADDING
+@mixin box-model($size, $value, $directions: "xy") {
+  $margin: "margin";
+  $padding: "padding";
+
+  @if $directions == "xy" {
+      #{$value}: $size;
+  } @else if $directions == "x" {
+      #{$value}-left: $size;
+      #{$value}-right: $size;
+  } @else if $directions == "y" {
+      #{$value}-top: $size;
+      #{$value}-bottom: $size;
+  } @else if $directions == "b" {
+      #{$value}-bottom: $size;
+  } @else if $directions == "t" {
+      #{$value}-top: $size;
+  } @else if $directions == "l" {
+      #{$value}-left: $size;
+  } @else if $directions == "r" {
+      #{$value}-right: $size;
+  }
+}

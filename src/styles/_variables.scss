@@ -1,0 +1,90 @@
+/* --- DECORATION --- */
+
+// OUTLINE
+$outline0: 1px solid lightgrey;
+$outline1: 1px solid lightsalmon;
+$outline2: 1px solid yellow;
+$outline3: 1px solid lightblue;
+
+// BORDER
+$border-s: 0.1rem solid lightgrey;
+$border-m: 0.2rem solid lightgrey;
+$border-l: 0.3rem solid lightgrey;
+
+// BORDER-RADIUS
+$border-radius-s: 0.2rem;
+$border-radius-m: 0.4rem;
+$border-radius-l: 0.6rem;
+
+/* --- FONTS --- */
+
+// FONT-SIZE
+$font-size-base: 1rem;
+$font-size-xs: 1.2rem;
+$font-size-sm: 1.4rem;
+$font-size-md: 2rem;
+$font-size-lg: 2.5rem;
+$font-size-xl: 3rem;
+$font-size-xxl: 5rem;
+
+// FONT-FAMILY
+$font-family-1: 'font1';
+$font-family-2: 'font2';
+
+// FONT-WEIGHT
+$font-weight-sm: 100;
+$font-weight-md: 600;
+$font-weight-lg: 900;
+
+// LETTER-SPACING
+$letter-spacing-sm: 0.1rem;
+$letter-spacing-md: 0.2rem;
+$letter-spacing-lg: 0.3rem;
+
+// LINE-HEIGHT
+$line-height-sm: 1.2;
+$line-height-md: 1.4;
+$line-height-lg: 1.6;
+
+/* --- SHADOW--- */
+
+// TEXT-SHADOW
+$text-shadow-sm: 0.05rem 0.05rem $color-shadow;
+$text-shadow-md: 0.07rem 0.07rem $color-shadow;
+$text-shadow-lg: 0.1rem 0.15rem $color-shadow;
+
+// DROP-SHADOW
+$drop-shadow-sm: drop-shadow(0.10rem 0.10rem 0.03rem $color-shadow);
+$drop-shadow-md: drop-shadow(0.15rem 0.15rem 0.05rem $color-shadow);
+$drop-shadow-lg: drop-shadow(0.20rem 0.20rem 0.07rem $color-shadow);
+
+/* --- BOX MODEL --- */
+
+// SIZE (alpha)
+$size-alpha-sm: 1rem;
+$size-alpha-md: 2rem;
+$size-alpha-lg: 3rem;
+$size-alpha-xl: 4rem;
+$size-alpha-xxl: 5rem;
+
+// SIZE (beta)
+$size-beta-sm: 6rem;
+$size-beta-md: 8rem;
+$size-beta-lg: 10rem;
+$size-beta-xl: 12rem;
+$size-auto: auto;
+
+// MARGIN & PADDING
+$model-sm: 0.2rem;
+$model-md: 0.5rem;
+$model-lg: 1rem;
+$model-xl: 2rem;
+$model-xxl: 5rem;
+
+// Z-INDEX
+$z-index-first: 10;
+$z-index-second: 20;
+$z-index-third: 30;
+
+// CURSOR
+$cursor-pointer: pointer;

@@ -1,0 +1,11 @@
+$bublegumsans: "../assets/fonts";
+@font-face {
+  src: url(#{$bublegumsans}/bubblegumsans-regular.ttf);
+  font-family: 'font1';
+}
+
+$opensans: "../assets/fonts";
+@font-face {
+  src: url(#{$opensans}/opensans-variable.ttf);
+  font-family: 'font2';
+}
